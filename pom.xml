@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.sfg-beer-works</groupId>
         <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.11</version>
+        <version>1.0.13</version>
     </parent>
 
     <groupId>guru.springframework</groupId>
@@ -17,6 +17,12 @@
     <name>mssc-beer-inventory-service</name>
 
     <description>MSSC Beer Inventory Service</description>
+
+    <properties>
+		<java.version>13</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
 
     <dependencies>
 
